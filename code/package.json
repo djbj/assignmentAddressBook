@@ -1,7 +1,6 @@
 {
   "name": "code",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js --exec babel-node"
@@ -12,10 +11,11 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "eslint-config-technigo": "^1.5.0",
-    "nodemon": "^1.14.8"
+    "nodemon": "^1.14.9"
   },
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.2"
-  }
+  },
+  "description": ""
 }
